@@ -7,7 +7,7 @@ export function FAQsContainer() {
     <Accordion>
       <Accordion.Title>Frequently Asked Questions</Accordion.Title>
       <Accordion.Frame>
-        {faqsData.map((item, index) => (
+        {faqsData.map((item) => (
           <Accordion.Item key={item.id}>
             <Accordion.Header>{item.header}</Accordion.Header>
             <Accordion.Body>{item.body}</Accordion.Body>
